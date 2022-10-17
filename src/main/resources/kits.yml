@@ -1,0 +1,62 @@
+Warrior:
+  Delay: 10
+  Item_Representation:
+    Material: DIAMOND_SWORD
+    Amount: 1
+    Glow: true
+    Enchant: [ ]
+    Name: '&4Warrior Kit'
+    Lore:
+      - ''
+      - '&7Used by the strongest'
+      - '&7players on the server!'
+  Items:
+    - Material: DIAMOND_SWORD
+      Amount: 1
+      Glow: false
+      Enchant:
+        - Fire_aspect, 2
+      Name: '&fDiamond Sword'
+      Lore: [ ]
+    - Material: BOW
+      Amount: 1
+      Glow: false
+      Enchant: [ ]
+      Name: '&fBow'
+      Lore: [ ]
+    - Material: COOKED_BEEF
+      Amount: 64
+      Glow: false
+      Enchant: [ ]
+      Name: '&fCooked Beef'
+      Lore: [ ]
+    - Material: IRON_HELMET
+      Amount: 1
+      Glow: false
+      Enchant: [ ]
+      Name: '&fIron Helmet'
+      Lore: [ ]
+    - Material: IRON_CHESTPLATE
+      Amount: 1
+      Glow: false
+      Enchant: [ ]
+      Name: '&fIron Chestplate'
+      Lore: [ ]
+    - Material: IRON_LEGGINGS
+      Amount: 1
+      Glow: false
+      Enchant: [ ]
+      Name: '&fIron Leggings'
+      Lore: [ ]
+    - Material: IRON_BOOTS
+      Amount: 1
+      Glow: false
+      Enchant: [ ]
+      Name: '&fIron Boots'
+      Lore: [ ]
+    - Material: ARROW
+      Amount: 64
+      Glow: false
+      Enchant: [ ]
+      Name: '&fArrow'
+      Lore: [ ]
