@@ -112,7 +112,8 @@ public class KitData extends YamlConfig {
 							.replace(",", "")
 							.split(" ");
 
-					Enchantment enchantment = Enchantment.getByKey(NamespacedKey.minecraft(compiling[0].toLowerCase()));
+					//Enchantment enchantment = Enchantment.getByKey(NamespacedKey.minecraft(compiling[0].toLowerCase()));
+					Enchantment enchantment = Enchantment.getByName(compiling[0].toUpperCase());
 					int level = Integer.parseInt(compiling[1]);
 
 					creator.enchant(enchantment, level);
