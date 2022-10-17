@@ -2,7 +2,6 @@ package me.whipmegrandma.grandmakits.file;
 
 import lombok.Getter;
 import lombok.ToString;
-import org.bukkit.NamespacedKey;
 import org.bukkit.enchantments.Enchantment;
 import org.bukkit.entity.Player;
 import org.bukkit.inventory.ItemFlag;
@@ -142,7 +141,8 @@ public class KitData extends YamlConfig {
 						.replace(",", "")
 						.split(" ");
 
-				Enchantment enchantment = Enchantment.getByKey(NamespacedKey.minecraft(compiling[0].toLowerCase()));
+				//Enchantment enchantment = Enchantment.getByKey(NamespacedKey.minecraft(compiling[0].toLowerCase()));
+				Enchantment enchantment = Enchantment.getByName(compiling[0].toUpperCase());
 				int level = Integer.parseInt(compiling[1]);
 
 				creator.enchant(enchantment, level);
